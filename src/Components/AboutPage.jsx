@@ -30,7 +30,7 @@ function AboutPage() {
     </div>
 
     <div className='lg:flex lg:justify-center p-20'>
-        <img src={OnlineMeeting} alt="online-meeting" className='h-1/5 mb-10 lg:m-5 lg:h-full lg:mt-34' data-aos='slide-up'/>
+        <img src={OnlineMeeting} alt="online-meeting" className='h-48 mb-10 lg:m-5 lg:h-full lg:mt-34' data-aos='slide-up'/>
 
         <div className='ml-1 lg:m-5 lg:ml-16 lg:w-1/2'>
             <h1 className='text-blue-900 font-bold text-2xl lg:text-5xl lg:mb-4'>My<span className='text-orange-600 font-bold lg:text-5xl'>Staff.</span>online

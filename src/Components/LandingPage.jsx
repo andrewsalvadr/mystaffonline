@@ -22,7 +22,7 @@ function LandingPage() {
         {/* Start Logo */}
         <div className='flex items-center'>
           <a href="#">
-            <img src={Logo} alt="logo" className='h-9 lg:h-9 lg:mt-3 mr-16 md:h-9 mt-0'/>
+            <img src={Logo} alt="logo" className='h-9 lg:h-9 lg:mt-3 lg:mr-16 md:h-9 mt-0'/>
           </a>
         </div>
         {/* End Logo */}
@@ -105,7 +105,7 @@ function LandingPage() {
     <div className='w-full lg:w-auto'>
       <h1 className='text-3xl text-blue-900 pt-24 flex justify-center xl:text-6xl 
       lg:text-4xl md:text-1xl'>Recruit.<span className='text-orange-600'>Manage.</span>Succeed</h1>
-      <h2 className='text-2xl text-white lg:text-orange-600 m-10 flex justify-center  md:text-2xl'>Discover more opportunities today!</h2>
+      <h2 className='lg:text-2xl text-orange-600 m-10 flex justify-center md:text-2xl'>Discover more opportunities today!</h2>
     <div className='flex bg-blue-900 rounded-md p-2 m-4 '>
     <div class="flex justify-center mt-2">
       
