@@ -20,7 +20,7 @@ function FeedbackPage() {
 
       {/* Latest Candidates Swiper */}
     <div className='m-20'>
-        <h1 className='text-blue-900 font-semibold mb-9 lg:text-2xl'>Our Latest Signups</h1>
+        <h1 className='text-blue-900 text-xl font-semibold mb-9 lg:text-2xl'>Our Latest Signups</h1>
         <div className='lg:ml-36'>
         <Swiper
       // install Swiper modules
@@ -31,10 +31,10 @@ function FeedbackPage() {
       onSlideChange={() => console.log('slide change')}
     >
       <SwiperSlide>
-      <img src={Signup1} alt="candidates"/>
+      <img src={Signup1} className='latest-signups' alt="candidates"/>
         </SwiperSlide>
       <SwiperSlide>
-      <img src={Signup2} alt="candidates"/>
+      <img src={Signup2}  className='latest-signups' alt="candidates"/>
         </SwiperSlide>
     </Swiper>
     </div>

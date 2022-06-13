@@ -52,6 +52,12 @@
 
 
 @media screen and (max-width: 500px) {
+
+.latest-signups {
+height: 130px;
+width: 260px;
+}
+
 }
 
 
@@ -77,5 +83,9 @@
      background-image: none;
      background-color: #F1F2F4;
   }
+
+  .latest-signups {
+    height: 100px;
+    }
   
   }
