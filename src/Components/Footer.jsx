@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../Assets/logofooter.png'
+import Logo from '../Assets/talentwisefooter.png'
 import {FaGlobeAsia} from 'react-icons/fa'
 import {FaFacebook} from 'react-icons/fa'
 import {AiFillTwitterCircle} from 'react-icons/ai'
@@ -13,16 +13,16 @@ function Footer() {
     className="flex flex-col lg:flex-row items-center justify-between mx-auto max-w-screen-2xl"
   >
       <img src={Logo} alt="logo-footer" className='m-5'/>
-    <ul
+    <ul 
       className="flex flex-col lg:flex-row items-center text-sm font-medium text-white py-12 lg:py-0"
     >
       <li className="mx-7 hover:text-orange-600 mb-2 lg:mb-0">
         <a href="#"
-          >JOB POSTS</a>
+          >BENEFITS</a>
       </li>
 
       <li className="mx-7 hover:text-orange-600 mb-2 lg:mb-0">
-        <a href="#">REWARDS</a>
+        <a href="#">BROWSE JOBS</a>
       </li>
 
       <li className="mx-7 hover:text-orange-600 mb-2 lg:mb-0">
@@ -62,7 +62,7 @@ function Footer() {
       <a className="mx-4 hover:text-orange-600" href="#" 
         >Terms &amp; Conditions</a>
     </div>
-    <span>&copy; MYSTAFF.ONLINE 2022</span>
+    <span>&copy; TalentWise 2022</span>
   </div>
 </footer>
 

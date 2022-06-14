@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../Assets/logo.png'
+import Logo from '../Assets/talentwiselogo.png'
 import { useState } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -32,14 +32,14 @@ function LandingPage() {
         rounded-br-full shadow-md lg:shadow-none">
         <ul className="flex flex-col ml-auto text-md text-blue-900 font-semibold lg:flex-row">
           <li className="mx-6 w-mc hover:text-orange-600 mt-4 lg:mt-3"><a href="#">
-            <span className='text-yellow-500'>★</span> Rewards</a></li>
-          <li className="mx-6 w-mc hover:text-orange-600 mt-4 lg:mt-3"><a href="#">Job Posts</a></li>
-          <li className="mx-6 w-mc hover:text-orange-600 mt-4 lg:mt-3"><a href="#">About Us</a></li>
-          <li className="mx-6 w-mc hover:text-orange-600 mt-4 lg:mt-3"><a href="#">Contact Us</a></li>
+            <span className='text-yellow-500'>★</span> Benefits</a></li>
+          <li className="mx-6 w-mc hover:text-orange-600 mt-4 lg:mt-3"><a href="#">Browse Jobs</a></li>
+          <li className="mx-6 w-mc hover:text-orange-600 mt-4 lg:mt-3"><a href="#">About</a></li>
+          <li className="mx-6 w-mc hover:text-orange-600 mt-4 lg:mt-3"><a href="#">Contact</a></li>
           <button class="bg-blue-900 hover:bg-blue-800 text-white font-bold py-2 px-4 border 
-          border-blue-900 rounded lg:ml-48">Sign In</button>
+          border-blue-900 rounded lg:ml-48">Log in</button>
           <button class="bg-orange-600 hover:bg-orange-500 ml-5 text-white font-bold py-2 px-4 border 
-          border-red-600 rounded">Create Account</button>
+          border-red-600 rounded">Register</button>
         </ul>
       </div>
 
@@ -75,22 +75,22 @@ function LandingPage() {
             </div>
             <ul className="menu-link mobile open flex flex-col items-center justify-between min-h-[250px]">
               <li className="border-b border-orange-600 text-blue-900 my-8 uppercase">
-                <a href="/about">Rewards</a>
+                <a href="/about">Benefits</a>
               </li>
               <li className="border-b border-orange-600 text-blue-900 my-8 uppercase">
-                <a href="/portfolio">Job Posts</a>
+                <a href="/portfolio">Browse Jobs</a>
               </li>
               <li className="border-b border-orange-600 text-blue-900 my-8 uppercase">
-                <a href="/contact">About Us</a>
+                <a href="/contact">About</a>
               </li>
               <li className="border-b border-orange-600 text-blue-900 my-8 uppercase">
-                <a href="/contact">Contact Us</a>
+                <a href="/contact">Contact</a>
               </li>
               <li className="border-b border-orange-600 text-blue-900 my-8 uppercase">
-                <a href="/contact">Sign In</a>
+                <a href="/contact">Log in</a>
               </li>
               <li className="border-b border-orange-600 text-blue-900 my-8 uppercase">
-                <a href="/contact">Create Account</a>
+                <a href="/contact">Register</a>
               </li>
             </ul>
           </div>
@@ -104,7 +104,7 @@ function LandingPage() {
     <div class="ml-0 lg:flex lg:ml-48 items-center h-full pb-16 lg:pb-28"  data-aos='slide-right'>
     <div className='w-full lg:w-auto'>
       <h1 className='text-3xl text-blue-900 pt-24 flex justify-center xl:text-6xl 
-      lg:text-4xl md:text-1xl'>Recruit.<span className='text-orange-600'>Manage.</span>Succeed</h1>
+      lg:text-4xl md:text-1xl'>Employ<span className='text-orange-600'>Your</span>Talents</h1>
       <h2 className='lg:text-2xl text-orange-600 m-10 flex justify-center md:text-2xl'>Discover more opportunities today!</h2>
     <div className='flex bg-blue-900 rounded-md p-2 m-4 '>
     <div class="flex justify-center mt-2">

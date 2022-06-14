@@ -33,25 +33,19 @@ function AboutPage() {
         <img src={OnlineMeeting} alt="online-meeting" className='h-48 mb-10 lg:m-5 lg:h-full lg:mt-34 md:h-2/3' data-aos='slide-up'/>
 
         <div className='ml-1 lg:m-5 lg:ml-16 lg:w-1/2'>
-            <h1 className='text-blue-900 font-bold text-2xl lg:text-5xl lg:mb-4'>My<span className='text-orange-600 font-bold lg:text-5xl'>Staff.</span>online
+            <h1 className='text-blue-900 font-bold text-2xl lg:text-5xl lg:mb-4'>Talent<span className='text-orange-600 font-bold lg:text-5xl'>Wise</span>
             <span className='text-1xl font-light lg:text-3xl'> specialises in connecting WFH Filipinos candidates to Employers around the Globe!</span></h1>
             <div className='about z-40 text-slate-700 text-sm lg:shadow-2xl lg:p-4 lg:m-1' data-aos='slide-left'>
             <br/>
-            <p className=''>Here at MyStaff.online we are a little bit different from other recruitment sites. Because we specialise in providing work-from-home jobs our 
-                Employers have requirements that are different from when applying for a normal job. 
-                For example, Employers of remote Candidates also need to know how fast the internet is in your area, 
-                your computer specs, if you have a quiet workspace, etc.</p>
+            <p className=''>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             <br/>
-            <p className=''>By signing up and completing your profile, you will be presenting yourself to Employers in a clear and understandable manner. 
-                This, coupled with our “record a video” interview system, makes the hiring process faster and easier.</p>
+            <p className=''>Iaculis urna id volutpat lacus laoreet non curabitur. Egestas egestas fringilla phasellus faucibus scelerisque eleifend. Felis donec et odio pellentesque diam volutpat commodo sed egestas. </p>
             <br/>
-            <p className=''>Although we do have some Job listings on our website, MyStaff.online is also a database of Candidates that our Employers and Recruiters around the world search 
-                through and choose their employees from.</p>   
+            <p className=''>Congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque. Tortor posuere ac ut consequat semper viverra. Elementum facilisis leo vel fringilla est.</p>   
             <br/>
-            <p className=''>By fully completing your MyStaff.online profile you greatly increase your chances of being successfully chosen.</p>
+            <p className=''>Non diam phasellus vestibulum lorem sed. Fermentum leo vel orci porta non. Cursus eget nunc scelerisque viverra mauris in. </p>
             <br/>
-            <p className=''>The employer and employee relationship solve the common outsourcing problems associated with the Freelancer / Fiverr model. The issues of a lack of reliability and inconsistent earnings are removed 
-                when permanent staff are employed and managed through MyStaff.online.</p>
+            <p className=''>Nunc sed blandit libero volutpat. Bibendum arcu vitae elementum curabitur vitae nunc. Purus in mollis nunc sed id. Massa eget egestas purus viverra accumsan in nisl nisi scelerisque. Nam libero justo laoreet sit amet cursus sit. Nam aliquam sem et tortor.</p>
                 </div>
         </div>
 
